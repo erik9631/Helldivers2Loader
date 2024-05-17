@@ -12,6 +12,7 @@ namespace byteMender::datatypes {
         unsigned char* patchAddr = nullptr;
         size_t size = 0;
         explicit Patch(size_t size);
+        explicit Patch(size_t size, const unsigned char* patchAddr);
         ~Patch();
     };
 

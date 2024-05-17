@@ -5,11 +5,12 @@ set(BYTEMENDER_LIB_PATH "${CMAKE_SOURCE_DIR}/staticLibs/$<CONFIG>/ByteMender/Byt
 
 set(all_headers
         GameGuardPatcher.h
-        datatypes/TargetedPatch.h
-        libcurl.h)
+        libcurl.h
+        utils.h)
 set(all_sources
         version.cpp
         GameGuardPatcher.cpp
+        utils.cpp
 )
 
 set(all_files
