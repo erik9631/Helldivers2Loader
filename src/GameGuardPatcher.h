@@ -12,6 +12,6 @@ namespace helldiversLoader {
     void ResumeAllThreads();
 
     void MonitorAddr(const volatile unsigned char* addr);
-    void PatchGameGuard(const datatypes::TargetedPatch *patches, int count);
+    void PatchGameGuard(const byteMender::datatypes::Patch *patch);
 }
 #endif //GAMEGUARDPATCHER_H

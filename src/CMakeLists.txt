@@ -21,5 +21,6 @@ set(all_files
 add_library(${libName} SHARED ${all_files})
 
 target_link_libraries(${libName} PRIVATE ${BYTEMENDER_LIB_PATH})
+target_link_libraries(${libName} PUBLIC concurrent_queue)
 target_include_directories(${libName} PRIVATE ${BYTEMENDER_INCLUDE_DIR})
 target_include_directories(${libName} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

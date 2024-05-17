@@ -50,7 +50,7 @@ namespace byteMender::algorithms{
 
             while(pivot != patternEnd) {
 
-                if ( (*pivot != *lastMatch) && (*pivot != wildCard))
+                if ( *pivot != *lastMatch)
                     lastMatch = pattern;
                 else {
                     ++lastMatch;
@@ -145,6 +145,7 @@ namespace byteMender::algorithms{
                     ++data;
                     ++patternPivot;
                     ++failureTableOffset;
+
 
                     if (patternPivot == patternEnd) {
 

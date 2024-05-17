@@ -33,7 +33,7 @@ namespace byteMender::algorithms{
         if constexpr (std::is_same_v<U, unsigned short>) {
             return 0;
         }
-        return std::numeric_limits<U>::min();
+        return 0;
 
     }
 
@@ -50,7 +50,7 @@ namespace byteMender::algorithms{
 
             while(pivot != patternEnd) {
 
-                if ( (*pivot != *lastMatch) && (*pivot != wildCard))
+                if ( *pivot != *lastMatch)
                     lastMatch = pattern;
                 else {
                     ++lastMatch;
@@ -145,6 +145,7 @@ namespace byteMender::algorithms{
                     ++data;
                     ++patternPivot;
                     ++failureTableOffset;
+
 
                     if (patternPivot == patternEnd) {
 
