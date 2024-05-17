@@ -2,8 +2,8 @@
 // Created by erik9 on 5/16/2024.
 //
 
-#ifndef SCANNER_H
-#define SCANNER_H
+#pragma once
+
 #include <windows.h>
 #include <tlhelp32.h>
 #include <set>
@@ -16,4 +16,4 @@ struct HeapEntryCompare {
 
 std::set<HEAPENTRY32, HeapEntryCompare> GetHeapList(HANDLE targetProcess = nullptr);
 
-#endif //SCANNER_H
+

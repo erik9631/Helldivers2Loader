@@ -2,8 +2,8 @@
 // Created by erik9 on 5/11/2024.
 //
 
-#ifndef VERSION_H
-#define VERSION_H
+#pragma once
+
 
 namespace byteMender::proxies::version {
     #pragma comment(linker, "/export:GetFileVersionInfoA=version_o.GetFileVersionInfoA")
@@ -25,4 +25,4 @@ namespace byteMender::proxies::version {
     #pragma comment(linker, "/export:VerQueryValueW=version_o.VerQueryValueW")
 }
 
-#endif //VERSION_H
+

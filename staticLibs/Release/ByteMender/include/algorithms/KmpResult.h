@@ -2,8 +2,8 @@
 // Created by erik9 on 5/6/2024.
 //
 
-#ifndef KMPRESULT_H
-#define KMPRESULT_H
+#pragma once
+
 
 namespace byteMender::algorithms {
 
@@ -15,4 +15,4 @@ struct KmpResult {
 
 } // algorithms
 
-#endif //KMPRESULT_H
+

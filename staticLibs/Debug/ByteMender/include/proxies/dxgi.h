@@ -2,8 +2,8 @@
 // Created by erik9 on 5/11/2024.
 //
 
-#ifndef DXGI_H
-#define DXGI_H
+#pragma once
+
 
 // Begin automatically forwarding exports to the original dxgi.dll functions
 namespace byteMender::proxies::dxgi {
@@ -28,4 +28,4 @@ namespace byteMender::proxies::dxgi {
     #pragma comment(linker, "/export:DXGIGetDebugInterface1=dxgi_o.DXGIGetDebugInterface1,@19")
     #pragma comment(linker, "/export:DXGIReportAdapterConfiguration=dxgi_o.DXGIReportAdapterConfiguration,@20")
 }
-#endif //DXGI_H
+

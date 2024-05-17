@@ -2,8 +2,8 @@
 // Created by erik9 on 5/7/2024.
 //
 
-#ifndef UTILS_H
-#define UTILS_H
+#pragma once
+
 #include <functional>
 #include <windows.h>
 
@@ -16,4 +16,4 @@ namespace byteMender::utils {
 }
 
 
-#endif //UTILS_H
+

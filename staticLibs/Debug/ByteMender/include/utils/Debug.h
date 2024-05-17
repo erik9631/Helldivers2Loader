@@ -2,8 +2,8 @@
 // Created by erik9 on 5/15/2024.
 //
 
-#ifndef DEBUG_H
-#define DEBUG_H
+#pragma once
+
 #include <windows.h>
 
 namespace byteMender::debug
@@ -26,4 +26,4 @@ namespace byteMender::debug
     void ClearHardwareBreakpoint(HANDLE thread,  unsigned char breakPointNum);
 }
 
-#endif //DEBUG_H
+

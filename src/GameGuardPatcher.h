@@ -2,8 +2,8 @@
 // Created by erik9 on 5/12/2024.
 //
 
-#ifndef GAMEGUARDPATCHER_H
-#define GAMEGUARDPATCHER_H
+#pragma once
+
 #include <datatypes/Patch.h>
 
 namespace helldiversLoader {
@@ -11,4 +11,4 @@ namespace helldiversLoader {
     void MonitorAddr(const volatile unsigned char* addr);
     void PatchGameGuard(const byteMender::datatypes::Patch *patch);
 }
-#endif //GAMEGUARDPATCHER_H
+

@@ -2,8 +2,8 @@
 // Created by erik9 on 4/28/2024.
 //
 
-#ifndef KMP_H
-#define KMP_H
+#pragma once
+
 #include <future>
 
 #include "KmpResult.h"
@@ -168,4 +168,4 @@ namespace byteMender::algorithms{
 
 }
 
-#endif //KMP_H
+

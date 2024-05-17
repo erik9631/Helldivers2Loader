@@ -2,8 +2,8 @@
 // Created by erik9 on 5/7/2024.
 //
 
-#ifndef PROFILER_H
-#define PROFILER_H
+#pragma once
+
 #include <string>
 #include <chrono>
 #include <iostream>
@@ -25,4 +25,4 @@ namespace byteMender::utils {
     };
 }
 
-#endif //PROFILER_H
+

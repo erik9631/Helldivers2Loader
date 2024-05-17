@@ -2,8 +2,8 @@
 // Created by erik9 on 4/28/2024.
 //
 
-#ifndef PATCH_H
-#define PATCH_H
+#pragma once
+
 #include <memory>
 #include <string>
 
@@ -24,4 +24,4 @@ namespace byteMender::datatypes {
 
 
 
-#endif //PATCH_H
+

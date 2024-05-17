@@ -2,8 +2,8 @@
 // Created by erik9 on 4/28/2024.
 //
 
-#ifndef MEMORY_H
-#define MEMORY_H
+#pragma once
+
 #include "datatypes/Patch.h"
 
 namespace byteMender::memory {
@@ -14,4 +14,4 @@ namespace byteMender::memory {
 }
 
 
-#endif //MEMORY_H
+
